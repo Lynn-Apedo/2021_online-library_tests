@@ -1,0 +1,69 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column; }
+
+.form_inputgroup {
+  display: flex;
+  justify-content: center; }
+  .form_inputgroup input,
+  .form_inputgroup label {
+    margin-top: 20px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  overflow: hidden;
+  height: 100%; }
+
+a {
+  text-decoration: none; }
+
+.header-container {
+  background-color: #f3efef;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px; }
+  .header-container a {
+    color: inherit; }
+  .header-container_nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none; }
+    .header-container_nav li {
+      margin-left: 20px; }
+
+.nav-dashboard {
+  background-color: #b5c0bd; }
+  .nav-dashboard_nav-dashboard_ul {
+    border: 3px solid;
+    display: flex;
+    flex-direction: row; }
+
+.ban {
+  width: 100%;
+  background: center/100% no-repeat url("https://longreadsblog.files.wordpress.com/2019/01/GettyImages-955854460.jpg?w=1024");
+  height: 50vh; }
+
+h1 {
+  text-align: center;
+  margin-top: 20px; }
+
+button {
+  padding: 10px;
+  width: 20%;
+  margin-top: 2%; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+
+/*# sourceMappingURL=/js.00a46daa.css.map */

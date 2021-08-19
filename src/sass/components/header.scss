@@ -1,0 +1,28 @@
+.header-container {
+  background-color: rgb(243, 239, 239);
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  a {
+    color: inherit;
+  }
+  &_nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    li {
+      margin-left: 20px;
+    }
+  }
+}
+
+.nav-dashboard {
+  background-color: rgb(181, 192, 189);
+  &_nav-dashboard_ul {
+    border: 3px solid;
+    display: flex;
+    flex-direction: row;
+  }
+}

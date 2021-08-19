@@ -1,0 +1,67 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\annem\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\annem\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\annem\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\MongoDB\Server\4.2\bin;C:\Users\annem\AppData\Local\Microsoft\WindowsApps;C:\Users\annem\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\heroku\bin;C:\Users\annem\AppData\Roaming\npm;C:\Users\annem\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.4.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\annem\AppData\Local\Yarn\Cache\v6\npm-axios-0.21.1-22563481962f4d6bde9a76d516ef0e5d3c09b2b8-integrity\node_modules\axios\index.js' -> 'C:\Users\annem\Desktop\NW1CPROL\Ebrairie_Client\node_modules\axios\index.js'
+
+npm manifest: 
+  {
+    "name": "ebrairie_client",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "./node_modules/parcel-bundler/bin/cli.js ./src/index.html"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Simplon-KIWI/Ebrairie_Client.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Simplon-KIWI/Ebrairie_Client/issues"
+    },
+    "homepage": "https://github.com/Simplon-KIWI/Ebrairie_Client#readme",
+    "devDependencies": {
+      "logger": "0.0.1",
+      "parcel-bundler": "^1.12.5",
+      "react-redux": "^7.2.4",
+      "react-router-dom": "^5.2.0",
+      "redux": "^4.1.0"
+    },
+    "browserslist": [
+      "last 3 and_chr versions",
+      "last 3 chrome versions",
+      "last 3 opera versions",
+      "last 3 ios_saf versions",
+      "last 3 safari versions"
+    ],
+    "dependencies": {
+      "axios": "^0.21.1",
+      "public": "^0.1.5",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "redux-logger": "^3.0.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
