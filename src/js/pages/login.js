@@ -55,7 +55,7 @@ const Login = () => {
             minlength="1"
             value={handleChange}
           />
-          <Button name="Me connecter" />
+          <Button name="Log in" />
         </form>
       </div>
     </div>

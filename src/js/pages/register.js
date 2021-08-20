@@ -36,6 +36,7 @@ const Register = () => {
 
     try {
       const result = await api.post("/admin/register", body);
+      console.log("RESULT", result.config.baseURL)
       console.log(result.status, "STATUS");
       if (result.status === 201) {
         history.push("/login");
@@ -60,7 +61,7 @@ const Register = () => {
           minlength="8"
           value={handleChange}
         />
-        <Button name="M'inscrire" />
+        <Button name="Register" />
       </form>
     </div>
   );

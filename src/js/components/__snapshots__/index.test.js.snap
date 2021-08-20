@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ban Should matches snapshot 1`] = `
+<div>
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    <h1>
+      EZE
+    </h1>
+  </a>
+  <div
+    className="ban"
+  />
+</div>
+`;
